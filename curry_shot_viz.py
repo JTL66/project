@@ -59,6 +59,8 @@ plt.scatter(data2.LOC_X, data2.LOC_Y)
 plt.show()
 
 ## try to use request command to get Curry's images from the given url 
+sns.set_style("white")
+sns.set_color_codes()
 import urllib.request
 # we pass in the link to the image as the 1st argument
 # the second argument tells urlretrieve what we want to get
