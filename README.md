@@ -10,5 +10,5 @@
 
 # extract dataset from basketball-reference.com
 # clean the data and get the variables that I need
-# I choose some very typical players meanwhile they're my favorite NBA players and visualize their shot details.
+# I choose some very typical players meanwhile they're my favorite NBA players. Then I plot the variables to visualize their shot details.
 
