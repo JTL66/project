@@ -1,4 +1,4 @@
-# project Decision
+# project Discription
 # Monitor and visualize the NBA player shot with python
 # I've tried to scrape NBA players dataset from either stats.nba.com or https://www.basketball-reference.com.
 # Clean the data and then extract the variables that I need.
