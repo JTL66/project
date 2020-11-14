@@ -5,7 +5,7 @@
 # Plotting the data and analyzing the player.
 
 # Dataset nbashot_19.csv was uploaded. The csv file needs to be downloaded before running the codes below.
-
+# This dataset covers NBA games that played between Season 2018 to 2019.
 # Data
 # 1.1
 # need some imports
