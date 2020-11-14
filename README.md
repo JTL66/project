@@ -6,9 +6,15 @@
 
 # Dataset nbashot_19.csv was uploaded. The csv file needs to be downloaded before running the codes below.
 
+# Data
+# 1.1
 # need some imports
 
+# 1.2
 # extract dataset from basketball-reference.com
 # clean the data and get the variables that I need
 # I choose some very typical players meanwhile they're my favorite NBA players. Then I plot the variables to visualize their shot details.
 
+# 1.3
+# 
+# 
