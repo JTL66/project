@@ -97,7 +97,7 @@ import urllib.request
 pic = urllib.request.urlretrieve("http://stats.nba.com/media/players/230x185/1627732.png",
                                 "1627732.png")
 
-# urlretrieve returns a tuple with our image as the first 
+# urlretrieve returns a tuple with the image as the first 
 # element and ues imread reads then the matplotlib can plot the picture
 ben_pic = plt.imread(pic[0])
 
