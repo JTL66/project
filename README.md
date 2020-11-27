@@ -23,3 +23,6 @@
 
 # 2.3
 # use the request command to get players photos from the given url
+
+# 3
+# 
