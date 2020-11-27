@@ -1,4 +1,4 @@
-# Some imports
+# Please have these command installed and import 
 import pandas as pd
 import numpy as np
 import requests
