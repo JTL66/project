@@ -10,17 +10,19 @@ import seaborn as sns
 ## Read data
 
 data = pd.read_csv("nbashot19.csv")
-print(data.shape)
 data.head() #head the first 5 rows
 
 ## non-missing value
 data =  data[data['SHOT_MADE_FLAG'].notnull()]
-print(data.shape)
 
-## get Curry's data
-data = data[data['PLAYER_NAME'] == 'Stephen Curry']
-data.head()
+## Select Curry's data 
+Curry_data = data[data['PLAYER_NAME'] == 'Stephen Curry']
+Curry_data.head()
 
-## get Giannis's data
-data1 = data[data['PLAYER_NAME'] == 'Giannis Antetokounmpo']
-data1.head()
+## Select Giannis's data
+Giannis_data = data[data['PLAYER_NAME'] == 'Giannis Antetokounmpo']
+Giannis_data.head()
+
+## Select Simmons's data
+Simmons_data = data[data['PLAYER_NAME'] == 'Ben Simmons']
+Simmons_data.head()
