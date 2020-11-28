@@ -16,13 +16,13 @@
 # I choose some very typical players meanwhile they're my favorite NBA players. Then I plot the variables to visualize their shot details.
 
 # 2.1.
-# use LOC_X and LOC_Y two variables and plot to see specific players' shot area details
+# use use seaborn function to plot players' shot details with LOC_X and LOC_Y two variables to see specific players' shot area details
 
 # 2.2
 # draw the basketball court
 
 # 2.3
-# use the request command to get players photos from the given url
+# use the request command to get players' photos from the given url
 
 # 3
 # 
