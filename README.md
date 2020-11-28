@@ -25,4 +25,8 @@
 # use the request command to get players' photos from the given url
 
 # 3
-# 
+# use joint shot to colormap the players' shot details
+# I've created two joint shot charts to show the frequenctly shooting area and field goals of Curry and Giannis. It's easily to tell they are two very distinctive players.
+
+# 4
+# I would also want to get their field goal rate and plot them onto thr courts to trace the way they shoot and how good they are in the specific areas.
