@@ -4,6 +4,7 @@ Visual Studio Code.
 """
 """
 #Some installments
+pip install jupyter
 pip install pandas
 pip intsall requests
 pip install matplotlib
