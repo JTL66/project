@@ -6,10 +6,10 @@ pip install jupyter
 pip install nba_api
 ```
 Required packages:
-- [pandas](https://pandas.pydata.org/) (optional)
+- [pandas](https://pandas.pydata.org/)
 - [requests](https://requests.readthedocs.io/en/master/)
-- [matplotlib] 
-- [seaborn] 
+- [matplotlib] (https://matplotlib.org/tutorials/introductory/sample_plots.html)
+- [seaborn] (https://seaborn.pydata.org/)
 
 ## Project
 
