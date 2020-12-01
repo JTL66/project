@@ -1,12 +1,3 @@
-# project Discription
-# Monitor and visualize the NBA player shot with python
-# I've tried to scrape NBA players dataset from either stats.nba.com or https://www.basketball-reference.com.
-# Clean the data and then extract the variables that I need.
-# Plotting the data and analyzing the player.
-
-# Dataset nbashot_19.csv was uploaded. The csv file needs to be downloaded before running the codes below.
-# This dataset covers NBA games that played between Season 2018 to 2019.
-
 # Run the program
 
 ## Installations
@@ -22,7 +13,7 @@ Required packages:
 
 ## Project
 
-- [Table of Contents]
+- Table of Contents
 - 1.1 some imports
     - Imports
         - [setup.py]
