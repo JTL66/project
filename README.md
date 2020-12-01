@@ -39,8 +39,10 @@ Required packages:
         
 
 - 1.2 dataset
-    - [scrape.py]()
-'nba_api' is an API Client for 'nba.com' website. We can access the NBA stats very easily by the the API Endpoints.
+    - [setup.py](https://github.com/JTL66/project/) -- Some required packages and imports.
+    - [scrape.py](https://github.com/JTL66/project/) --'nba_api' is an API Client for 'nba.com' website. We can access the NBA stats very easily by the the API Endpoints. Here calls the players' shot data from it.
+    - [Jupyter Notebooks](https://github.com/JTL66/project/) -- Some plots and visulization of the
+players' shot details in Jupyter Notebook.
 
 After scraping the dataset I clean the data and get the variables that I need.
  
