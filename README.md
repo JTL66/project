@@ -16,7 +16,7 @@ Required packages:
 - Table of Contents
 - 1.1 some imports
     - Imports
-        - [setup.py]
+        - [setup.py] ()
         - import pandas as pd
         - import numpy as np
         - import requests
@@ -30,9 +30,9 @@ Required packages:
         
 
 - 1.2 dataset
-    - [setup.py](https://github.com/JTL66/project/) -- Some required packages and imports.
-    - [scrape.py](https://github.com/JTL66/project/) --'nba_api' is an API Client for 'nba.com' website. We can access the NBA stats very easily by the the API Endpoints. Here calls the players' shot data from it.
-    - [Jupyter Notebooks](https://github.com/JTL66/project/) -- Some plots and visulization of the
+    - [setup.py](https://github.com/JTL66/project/blob/main/setup.py) -- Some required packages and imports.
+    - [scrape.py](https://github.com/JTL66/project/blob/main/scrape.py) --'nba_api' is an API Client for 'nba.com' website. We can access the NBA stats very easily by the the API Endpoints. Here calls the players' shot data from it.
+    - [Jupyter Notebooks](https://github.com/JTL66/project/blob/main/NBA_shot_chart.ipynb) -- Some plots and visulization of the
 players' shot details in Jupyter Notebook.
 
 After scraping the dataset I clean the data and get the variables that I need.
