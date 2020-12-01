@@ -16,7 +16,7 @@ Required packages:
 - Table of Contents
 - 1.1 some imports
     - Imports
-        - [setup.py] ()
+        - [setup.py](https://github.com/JTL66/project/blob/main/setup.py)
         - import pandas as pd
         - import numpy as np
         - import requests
