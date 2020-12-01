@@ -39,17 +39,17 @@ After scraping the dataset I clean the data and get the variables that I need.
  
 I choose some very typical players meanwhile they're my favorite NBA players. Then I plot the variables to visualize their shot details.
 
-# 2.1.
-# use use seaborn function to plot players' shot details with LOC_X and LOC_Y two variables to see specific players' shot area details
+- 2.1
+I use the seaborn function to plot players' shot details with LOC_X and LOC_Y two variables to see specific players' shot types.
 
-# 2.2
-# draw the basketball court
+- 2.2
+First I draw the basketball court. Then use matplotlib function to plot the bball_court.
 
-# 2.3
-# use the request command to get players' photos from the given url
+- 2.3
+Use the request command to get players' photos from the given url.
 
-# 3
-# use joint shot to colormap the players' shot details
-# I've created two joint shot charts to show the frequenctly shooting area and field goals of Curry and Giannis. It's easily to tell from the plots that they are two very distinctive players.
+- 3
+Use joint shot to colormap the players' shot details
+I've created two joint shot charts to show the frequenctly shooting area and field goals of Curry and Giannis. It's very easy to tell from the plots that they are two very distinctive players.
 
 
