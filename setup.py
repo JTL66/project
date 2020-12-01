@@ -27,7 +27,7 @@ from nba_api.stats.endpoints import shotchartdetail
 Curry_data = pd.read_csv("curry.csv")
 Curry_data.head()
 ## non-missing value
-Curry_data =  curry_data[curry_data['SHOT_MADE_FLAG'].notnull()]
+Curry_data =  Curry_data[Curry_data['SHOT_MADE_FLAG'].notnull()]
 
 
 ## Select Giannis's data
