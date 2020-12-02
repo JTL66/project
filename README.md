@@ -47,7 +47,9 @@ First I draw the basketball court. Then use matplotlib function to plot the bbal
 
 - 2.3
 Use the request command to get players' photos from the given url.
+
 Stephen Curry: 
+
 ![alt text](https://github.com/JTL66/project/blob/main/201939.png "Logo Title Text 1")
 
 
