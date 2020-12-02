@@ -5,35 +5,39 @@
 pip install jupyter
 pip install nba_api
 ```
+```commandline
+$ jupyter notebook
+```
+To run the project:
+```commandline
+$ jupyter notebook NBA_shot_chart.ipynb
+```
+
 Required packages:
+- [setup.py](https://github.com/JTL66/project/blob/main/setup.py)
+- [Jupyter Notebooks](https://github.com/JTL66/project/blob/main/NBA_shot_chart.ipynb) -- Some plots and visulization of the players' shot details in Jupyter Notebook.
 - [pandas](https://pandas.pydata.org/)
 - [requests](https://requests.readthedocs.io/en/master/)
 - [matplotlib](https://matplotlib.org/tutorials/introductory/sample_plots.html)
 - [seaborn](https://seaborn.pydata.org/)
 
 ## Getting Started
-
 - Table of Contents
 - 1.1 some imports
     - Imports
-        - [setup.py](https://github.com/JTL66/project/blob/main/setup.py)
         - import pandas as pd
         - import numpy as np
         - import requests
         - import os
-        - import json
+        - import jso
         - import seaborn as sns
         - from urllib.request import urlopen
         - import matplotlib as mpl
         - import matplotlib.pyplot as plt
         - from nba_api.stats.endpoints import shotchartdetail
         
-
 - 1.2 dataset
-    - [setup.py](https://github.com/JTL66/project/blob/main/setup.py) -- Some required packages and imports.
     - [scrape.py](https://github.com/JTL66/project/blob/main/scrape.py) --'nba_api' is an API Client for 'nba.com' website. We can access the NBA stats very easily by the the API Endpoints. Here calls the players' shot data from it.
-    - [Jupyter Notebooks](https://github.com/JTL66/project/blob/main/NBA_shot_chart.ipynb) -- Some plots and visulization of the
-players' shot details in Jupyter Notebook.
 
 After scraping the dataset I clean the data and get the variables that I need.
  
@@ -46,7 +50,6 @@ I use the seaborn function to plot players' shot details with LOC_X and LOC_Y tw
 First I draw the basketball court. Then use matplotlib function to plot the bball_court.
 
 ![alt text](https://github.com/JTL66/project/blob/main/bball_court.png "Logo Title Text 3")
-
 
 - 2.3
 Use the request command to get players' photos from the given url.
