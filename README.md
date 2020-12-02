@@ -52,6 +52,10 @@ Stephen Curry:
 
 ![alt text](https://github.com/JTL66/project/blob/main/201939.png "Logo Title Text 1")
 
+Giannis Antetokounmpo: 
+
+![alt text](https://github.com/JTL66/project/blob/main/203507.png "Logo Title Text 2")
+
 
 - 3
 Use joint shot to colormap the players' shot details
