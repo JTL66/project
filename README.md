@@ -70,3 +70,16 @@ Use joint shot to colormap the players' shot details
 I've created two joint shot charts to show the frequenctly shooting area and field goals of Curry and Giannis. It's very easy to tell from the plots that they are two very distinctive players.
 
 
+### Run the program
+To get started developing, clone the repo and `cd` into it.
+In an environment where you have not yet installed `nba_api`, then run
+```bash
+python -m pip install -e .
+```
+This command will install the package for development, such that any changes you make in the repo will be reflected the next time you import the package in Python.
+
+### Testing
+Run `pytest` to verify everything still works.
+```bash
+pytest
+```
