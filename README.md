@@ -45,6 +45,9 @@ I use the seaborn function to plot players' shot details with LOC_X and LOC_Y tw
 - 2.2
 First I draw the basketball court. Then use matplotlib function to plot the bball_court.
 
+![alt text](https://github.com/JTL66/project/blob/main/bball_court.png "Logo Title Text 3")
+
+
 - 2.3
 Use the request command to get players' photos from the given url.
 
