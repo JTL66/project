@@ -11,7 +11,7 @@ Required packages:
 - [matplotlib](https://matplotlib.org/tutorials/introductory/sample_plots.html)
 - [seaborn](https://seaborn.pydata.org/)
 
-## Project
+## Getting Started
 
 - Table of Contents
 - 1.1 some imports
