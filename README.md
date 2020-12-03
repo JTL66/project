@@ -69,6 +69,18 @@ Giannis Antetokounmpo:
 Use joint shot to colormap the players' shot details
 I've created two joint shot charts to show the frequenctly shooting area and field goals of Curry and Giannis. It's very easy to tell from the plots that they are two very distinctive players.
 
+Stephen Curry shot plots:
+
+![alt text](https://github.com/JTL66/project/blob/main/curryshot.png "Logo Title Text 4")
+
+![alt text](https://github.com/JTL66/project/blob/main/curryshot1.png "Logo Title Text 5")
+
+Giannis Antetokounmpo shot plots:
+
+![alt text](https://github.com/JTL66/project/blob/main/igannisshot.png "Logo Title Text 6")
+
+![alt text](https://github.com/JTL66/project/blob/main/igannisshot1.png "Logo Title Text 7")
+
 
 ### Run the program
 To get started developing, clone the repo and `cd` into it.
