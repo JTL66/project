@@ -39,7 +39,7 @@ Required packages:
         - from nba_api.stats.endpoints import shotchartdetail
         
 - 1.2 dataset
-    - [scrape.py](https://github.com/JTL66/project/blob/main/scrape.py) --'nba_api' is an API Client for 'nba.com' website. We can access the NBA stats very easily by the the API Endpoints. Here calls the players' shot data from it.
+    - [stats.py](https://github.com/JTL66/project/blob/main/stats.py) --'nba_api' is an API Client for 'nba.com' website. We can access the NBA stats very easily by the the API Endpoints. Here calls the players' shot data from it.
 
 After scraping the dataset I clean the data and get the variables that I need.
  
@@ -80,6 +80,8 @@ This command will install the package for development, such that any changes you
 
 ### Testing
 Run `pytest` to verify everything still works.
+- [stats.py](https://github.com/JTL66/project/blob/main/stats.py)
+- [test_stats.py](https://github.com/JTL66/project/blob/main/test_stats.py)
 ```bash
 pytest
 ```
