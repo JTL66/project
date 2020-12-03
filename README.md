@@ -77,9 +77,9 @@ Stephen Curry shot plots:
 
 Giannis Antetokounmpo shot plots:
 
-![alt text](https://github.com/JTL66/project/blob/main/igannisshot.png "Logo Title Text 6")
+![alt text](https://github.com/JTL66/project/blob/main/giannisshot.png "Logo Title Text 6")
 
-![alt text](https://github.com/JTL66/project/blob/main/igannisshot1.png "Logo Title Text 7")
+![alt text](https://github.com/JTL66/project/blob/main/giannisshot1.png "Logo Title Text 7")
 
 
 ### Run the program
