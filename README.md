@@ -1,4 +1,4 @@
-# Run the program
+# Project
 
 ## Installations
 ```commandline
