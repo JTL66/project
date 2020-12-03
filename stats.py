@@ -64,8 +64,6 @@ rows = results['rowSet']
 df = pd.DataFrame(rows)
 df.columns = headers
 
-# write to Curry's csv file
-df.to_csv('curry.csv', index=False)
 
 
 
