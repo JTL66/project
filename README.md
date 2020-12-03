@@ -90,6 +90,8 @@ python -m pip install -e .
 ```
 This command will install the package for development, such that any changes you make in the repo will be reflected the next time you import the package in Python.
 
+- [Jupyter Notebooks](https://github.com/JTL66/project/blob/main/NBA_shot_chart.ipynb) -- This will give you an overview of the whole project.
+
 ### Testing
 Run `pytest` to verify everything still works.
 - [stats.py](https://github.com/JTL66/project/blob/main/stats.py)
