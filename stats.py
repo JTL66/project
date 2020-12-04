@@ -5,7 +5,6 @@ import os
 import json 
 
 # Scrape Curry's dataset
-import requests
 
 url = 'https://stats.nba.com/stats/shotchartdetail'
 
@@ -64,7 +63,8 @@ rows = results['rowSet']
 df = pd.DataFrame(rows)
 df.columns = headers
 
-
+# write to Curry's csv file
+df.to_csv('curry.csv', index=False)
 
 
 		
