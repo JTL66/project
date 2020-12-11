@@ -65,3 +65,5 @@ rows = results['rowSet']
 df = pd.DataFrame(rows)
 df.columns = headers
 
+print('URL: {}\n'.format(content))
+print(content)
