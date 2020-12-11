@@ -4,19 +4,21 @@ import requests
 import os
 import json 
 
-# Scrape Curry's dataset
-
-url = 'https://stats.nba.com/stats/shotchartdetail'
+class Content:
+    def __init__(self, url):
+        self.url = url
+        
 
 def scrape_stats(url):
-    try:
-        response = requests.get(url, params=features, headers=headers)
-        if response.status_code == 200:
-            content = json.loads(response.content)
-            return content
-        return None
-    except ConnectionError:
-        return None
+        try:
+            response = requests.get(url, params=features, headers=headers)
+            if response.status_code == 200:
+                content = json.loads(response.content)
+                return content
+            return None
+        except ConnectionError:
+            return None
+url = 'https://stats.nba.com/stats/shotchartdetail'
 
 headers = {
 		'Host': 'stats.nba.com',
@@ -63,8 +65,5 @@ rows = results['rowSet']
 df = pd.DataFrame(rows)
 df.columns = headers
 
-# write to Curry's csv file
-df.to_csv('curry.csv', index=False)
-
-
-		
+print('URL: {}\n'.format(content))
+print(content)
